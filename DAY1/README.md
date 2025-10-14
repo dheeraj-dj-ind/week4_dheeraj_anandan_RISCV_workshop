@@ -105,13 +105,13 @@ Vin in 0 2.5
 
 #### SPICE Files
 - nfet SPICE File
-![nfet SPICE file](/images/nfet%20spice%20file.png)
+![nfet SPICE file](images/nfet%20spice%20file.png)
 
 - Sky130 Process Corner Files
-![](/images/models%20with%20different%20corners.png)
+![](images/models%20with%20different%20corners.png)
 
 - Units file
-![](/images/all.spice%20file.png)
+![](images/all.spice%20file.png)
 
 #### Simulating the netlist
 - Netlist file 
