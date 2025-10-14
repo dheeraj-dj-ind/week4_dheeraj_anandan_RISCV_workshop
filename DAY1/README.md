@@ -22,7 +22,7 @@ For a device to be on, i.e. for the NMOS transitor to conduct current from drain
 
 As you can see, when a +ve VGS is applied, the oxide layer has positive charges on the gate side and an electric field is being created which repels the positive charges in the substrate region. Since the elctric field repels the positive charges, it in-turn attracts the weak negative charges present in the p+ substrate. 
 
-![Accumulation](images/strong%20inversion.png)
+![Accumulation](images/accumulation.png)
 
 Now when we increase the VGS value, a depletion region is formed, the negative charges move closer to the oxide layer such that it becomes a n+ rich region. This phenomenon is called as `Strong Inversion` and the voltage at which strong inversion occurs is called as threshold voltage. 
 
