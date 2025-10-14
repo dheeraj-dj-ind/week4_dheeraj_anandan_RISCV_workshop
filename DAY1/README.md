@@ -103,6 +103,25 @@ VDD Vdd 0 2.5
 Vin in 0 2.5
 ```
 
+#### SPICE Files
+- nfet SPICE File
+![nfet SPICE file](/images/nfet%20spice%20file.png)
+
+- Sky130 Process Corner Files
+![](/images/models%20with%20different%20corners.png)
+
+- Units file
+![](/images/all.spice%20file.png)
+
+#### Simulating the netlist
+- Netlist file 
+![Netlist](images/Spice%20Netlist.png)
+
+- Simulating with `ngspice`
+![Simulation output](images/Simulation%20Output.png)
+
+- Obtained Waveform (ID vs VDS)
+![Waveform](images/Id%20vs%20VDS.png)
 
 
 
