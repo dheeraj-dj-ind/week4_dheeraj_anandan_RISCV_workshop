@@ -32,10 +32,12 @@ Upon simulation of the same SPICE netlist, but with a short channel MOSFET, the 
 - The peak saturation current observed is 198 uA. This indicates that saturation happens faster in short-channel devices.
 
 ## Velocity Saturation 
-The condition where, for lower values of electric field, the velocity tends to be a linear function of electric field but after a certain point, it becomes constant due to scattering effect is called as **Velocity Saturation**. 
+The condition where, for lower values of electric field, the velocity tends to be a linear function of electric field but after a certain point, it becomes constant due to scattering effect is called as 
+**Velocity Saturation**. 
 ![Velocity Saturation](images/velocity%20saturation%20.png)
 
 The derivation for drain current due to veolocity saturation is given below. We try to derive the equations at boundry condition where ε=εc.
+
 ![Velocity Saturation Derivation1](images/Velocity%20Saturation%20derivation1.png)
 ![Velocity Saturation Derivation2](images/e=ec.png)
 
