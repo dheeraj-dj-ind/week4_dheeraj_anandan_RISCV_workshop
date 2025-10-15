@@ -49,9 +49,11 @@ The above derived equation is complex in nature, so we try to simplify it in the
 ## Regions of Operation 
 As mentioned before, in a short-channel MOSFET, there are 4 regions of operation, Cut-off, Linear, Velocity Saturation and Saturation. 
 The cut-off region for both long-channel and short-channel devices are the same as they remain in the off-state (VGS<0). For the remaining regions, we are going to take a model of drain current as shown below:
+
 ![New Current Model](images/newModel.png)
-**We are considering VGS-Vth = Vgt**
-Where Vmin = min(Vgt,Vds,Vdsat). Vdsat can be defined as the voltage at which, the device velocity saturates and becomes independent of VGS or Vds. Upon substituting each value as minimum in the above drain current equation, here is what we get
+
+We are considering VGS-Vth = Vgt. Where Vmin = min(Vgt,Vds,Vdsat). Vdsat can be defined as the voltage at which, the device velocity saturates and becomes independent of VGS or Vds. Upon substituting each value as minimum in the above drain current equation, here is what we get.
+
 ![Case1](images/Case1.png)
 ![Case2](images/Case2.png)
 ![Case3](images/Case3.png)
