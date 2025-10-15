@@ -52,7 +52,9 @@ The cut-off region for both long-channel and short-channel devices are the same 
 
 ![New Current Model](images/newModel.png)
 
-We are considering VGS-Vth = Vgt. Where Vmin = min(Vgt,Vds,Vdsat). Vdsat can be defined as the voltage at which, the device velocity saturates and becomes independent of VGS or Vds. Upon substituting each value as minimum in the above drain current equation, here is what we get.
+We are considering VGS-Vth = Vgt.\
+Where Vmin = min(Vgt,Vds,Vdsat).\
+Vdsat can be defined as the voltage at which, the device velocity saturates and becomes independent of VGS or Vds. Upon substituting each value as minimum in the above drain current equation, here is what we get.
 
 ![Case1](images/Case1.png)
 ![Case2](images/Case2.png)
