@@ -38,6 +38,8 @@ It can be observed that the waveform is not very straight due to the non idealit
 
 Another point to be noted is that `VOH` lies between `VIH and Vdd`. This is so that the next stage of the input detectd logic 1 at the output of the invertor. A similar observation is made where `VOL` lies between `VIL and 0`. This is so that the next stage of the input detects logic 0 at the output of the invertor. Now to obtain the noise margins we plot all the voltage levels onto a single line as shown below:
 
+### One Line Plot
+
 ![One Line Plot](images/One%20line%20Plot.png)
 
 From the plot we can observe the following - 
