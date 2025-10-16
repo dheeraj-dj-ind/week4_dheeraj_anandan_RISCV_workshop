@@ -45,7 +45,7 @@ We use the time value of the waveform at exactly 50% of input voltage, for the a
 We carry out the same process for fall time and upon doing so, the values of time are:
 ![Time values](images/Calculating%20rise%20and%20fall%20time.png) 
 
-As seen in the above images, it can be observed that the time value at 0.9V for input is 2.1494 ns and output is 2.48233 ns. On subtraction we get 0.33293 ns which is the observed rise time. For fal time we perform the same, it can be seen that at 0.9V for input is 4.05093 ns and output time is 4.33426 ns. On subtracting the two values we get 0.2833 ns as the fall time. 
+As seen in the above images, it can be observed that the time value at 0.9V for input is `2.1494 ns` and output is `2.48233 ns`. On subtraction we get `0.33293 ns` which is the observed rise time. For fal time we perform the same, it can be seen that at 0.9V for input is `4.05093 ns` and output time is `4.33426 ns`. On subtracting the two values we get `0.2833 ns` as the fall time. 
 
 # Switching Threshold Voltage (Vm)
 The switching threshold voltage (often denoted as Vm) in a CMOS inverter is the input voltage level at which the output voltage equals the input voltage. In other words, it is the point where the voltage transfer characteristic (VTC) curve intersects the line Vout=Vin.This voltage signifies the exact switching point of the inverter where the device transitions from a logic high to logic low or vice versa. From a graph, Vm can be plotted by drawing a 45 degree line from origin as shown below. The intersection point of the strain line and the VTC curve tells use the Vm of the inverter. 
