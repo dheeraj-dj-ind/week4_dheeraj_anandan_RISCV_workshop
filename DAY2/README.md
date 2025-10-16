@@ -145,9 +145,9 @@ Now we just have to super impose the NMOS load curve on PMOS load curve and find
 | Vin NMOS     | Vin PMOS     | Vout                | NMOS Region of Operation | NMOS Region of Operation|
 | ------------ | ------------ | ------------------- | ------------------------ | ----------------------- |
 | 2            | 0            | 0                   | Linear                   | Cut-off                 |
-| 1.5          | 0.5          | 0<Vout<0.5          | Saturation               | Saturation              |
+| 1.5          | 0.5          | 0<Vout<0.5          | Linear                   | Saturation              |
 | 1            | 1            | 0.5<Vout<1          | Saturation               | Saturation              |
-| 0.5          | 1.5          | 1<Vout<1.5          | Saturation               | Saturation              |
+| 0.5          | 1.5          | 1<Vout<1.5          | Saturation               | Linear                  |
 | 0            | 2            | 2                   | Cut-off                  | Linear                  |
 
 Upon identifying the intersection points, (Vin PMOS, Vin NMOS) where they are similar, we have plotted the following VTC curve. 

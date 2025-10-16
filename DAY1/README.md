@@ -104,6 +104,9 @@ Vin in 0 2.5
 ```
 
 #### SPICE Files
+To get the SPICE source files, clone this github repository.
+[github](https://github.com/kunalg123/sky130CircuitDesignWorkshop)
+
 - nfet SPICE File
 ![nfet SPICE file](images/nfet%20spice%20file.png)
 
