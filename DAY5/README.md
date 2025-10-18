@@ -60,5 +60,13 @@ Another factor that measures robustness of  a CMOS inverter is by sweeping the W
 
 ![W/L sweeping](images/WbyL%20sweeping%20.png)
 
-We are performing simulation to obtain VTC curve by varrying width of transistor from strong PMOS to weak PMOS and weak NMOS to strong NMOS. 
+We are performing simulation to obtain VTC curve by varrying width of transistor from strong PMOS to weak PMOS and weak NMOS to strong NMOS. The SPICE deck for this is given:
+
+![SPICE for device vartion](images/process%20variation%20netlist.png)
+
+SPICE simulation obtains the following waveform 
+
+![SPICE waveform](images/device%20variation.png)
+
+From the waveform observed, the PMOS is on for a longer duration due to it's large size compared to the NMOS, which is on for a shorter period as is node size is small. 
 
